@@ -1,1 +1,1 @@
-# calculator-using-if-else-if-statement-in-C-
+ calculator using if else-ifstatement in C++
