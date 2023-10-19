@@ -1,29 +1,29 @@
-#inlude<iostream>
-using namespae std;
+#include<iostream>
+using namespace std;
 int main (){
 	int a,b,;
-	har opr;
-	out<<"enter the value of a"<<endl;
-	in>>a;
-	out<<"enter the value of b"<<endl;
-	in>>b;
-	out<<"enter the operation(+,-,*and/):";
-	in>>opr;
+	char opr;
+	cout<<"enter the value of a"<<endl;
+	cin>>a;
+	cout<<"enter the value of b"<<endl;
+	cin>>b;
+	cout<<"enter the operation(+,-,*and/):";
+	cin>>opr;
 	
 	if(opr == '+'){
-		=a+b;
-		out<<;
+		c=a+b;
+		cout<<c;
 	}
 	 else if (opr == '-'){
-		=a-b;
-		out<<;
+		c=a-b;
+		cout<<c;
 	}
 	else if(opr == '*'){
-		=a*b;
-		out<<;}
+		c=a*b;
+		cout<<c;}
 	if (opr == '/'){
-		=a/b;
-		out<<;
+		c=a/b;
+		cout<<c;
 	}
 	
 	return 0;
